@@ -1,8 +1,4 @@
-
-import 'dart:async';
-
 import 'package:bloc/bloc.dart';
-import 'package:flutter/material.dart';
 import 'package:task/layout/cubit/home_cubit_states.dart';
 
 
@@ -21,17 +17,5 @@ class HomeCubit extends Cubit<HomeStates> {
   int getBottomNavItemIndex() {
     return _bottomNavItemIndex;
   }
-
-
-
-  List _screens = [
-
-  ];
-
-
-
-
-
-
 
 }

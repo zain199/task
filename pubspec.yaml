@@ -37,6 +37,8 @@ dependencies:
   bloc: ^7.0.0
   flutter_bloc: ^7.0.0
   flutter_svg: ^1.0.3
+  hexcolor: ^2.0.3
+
 
 dev_dependencies:
   flutter_test:
@@ -76,13 +78,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
+  fonts:
+    - family: Jannah
+      fonts:
+        - asset: assets/fonts/jannah.ttf
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
